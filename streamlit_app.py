@@ -6,14 +6,19 @@ import streamlit as st
 
 """
 # Welcome to Young Trader indo apps!
+this is app v.1 for showing mark price from API Binance on realtime price update no delay.
+stream data success using streamlit framework
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+v.2 --> Creating modeling for learn everytime and learn everysecond price movement on binance using random forest classification (supervised learning)
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+
+
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+#Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+#If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community forums](https://discuss.streamlit.io).
+#st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
 import streamlit as st
 import pandas as pd
 
@@ -68,7 +73,7 @@ for i in range(len(crpytoList.keys())):
 st.header('**All Price**')
 st.dataframe(df)
 
-st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
+
 
 st.markdown("""
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
