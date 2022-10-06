@@ -16,4 +16,8 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 
-test
+st.write(1234)
+st.write(pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40],
+}))
