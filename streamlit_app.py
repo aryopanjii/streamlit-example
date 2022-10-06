@@ -25,7 +25,7 @@ st.write(pd.DataFrame({
 
 apikey = 'K8AF2wV5T0z1Pi6YHFFiOvLPnY5MdAKtjIN8AfRfTEFCXzsF8nxC38vwyD6yTkeV'
 secret = 'Aryomadan123'
-!pip install python-binance pandas mplfinance
+#!pip install python-binance pandas mplfinance
 
 #Import library
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
