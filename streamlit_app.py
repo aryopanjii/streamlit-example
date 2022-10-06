@@ -19,5 +19,5 @@ In the meantime, below is an example of what you can do with just a few lines of
 st.write(1234)
 st.write(pd.DataFrame({
     'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40],
+    'second column': [10, 2000, 3000, 40000],
 }))
