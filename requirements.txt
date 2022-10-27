@@ -1,3 +1,13 @@
 altair
 pandas
 streamlit
+numpy
+time
+datetime
+tensorflow
+stock_info
+sklearn.preprocessing
+collections
+keras.models
+keras.layers
+matplotlib.pyplot
