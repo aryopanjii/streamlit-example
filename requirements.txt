@@ -4,4 +4,4 @@ streamlit
 tensorflow
 yahoo_fin
 stock_info
-sklearn.preprocessing
+#sklearn.preprocessing
