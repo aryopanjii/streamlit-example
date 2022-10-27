@@ -4,6 +4,23 @@ import math
 import pandas as pd
 import streamlit as st
 
+import numpy as np
+import time as tm
+import datetime as dt
+import tensorflow as tf
+
+# Data preparation
+from yahoo_fin import stock_info as yf
+from sklearn.preprocessing import MinMaxScaler
+from collections import deque
+
+# AI
+from keras.models import Sequential
+from keras.layers import Dense, LSTM, Dropout
+
+# Graphics library
+import matplotlib.pyplot as plt
+
 """
 # Welcome to Young Trader indo apps!
 this is app v.1 for showing mark price from API Binance on realtime price update no delay.
@@ -65,8 +82,9 @@ for i in range(len(crpytoList.keys())):
             st.metric(selected_crypto, col_price, col_percent)
     if i > 5:
         with col3:
-            st.metric(selected_crypto, col_price, col_percent)
-#st.header('**All Price**')
+            st.metric(selected_crypto, col_price, col_percent
+                      
+st.header('**All Price**')
 #st.dataframe(df)
 
 
