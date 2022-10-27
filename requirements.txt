@@ -2,3 +2,4 @@ altair
 pandas
 streamlit
 tensorflow
+yahoo_fin
