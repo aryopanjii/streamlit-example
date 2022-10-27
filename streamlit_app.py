@@ -66,7 +66,9 @@ for i in range(len(crpytoList.keys())):
     if i > 5:
         with col3:
             st.metric(selected_crypto, col_price, col_percent)
-
+     if i > 5:
+        with col4:
+            st.metric(selected_crypto, col_price, col_percent)
 #st.header('**All Price**')
 #st.dataframe(df)
 
