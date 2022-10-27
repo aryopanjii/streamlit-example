@@ -85,7 +85,7 @@ for i in range(len(crpytoList.keys())):
             st.metric(selected_crypto, col_price, col_percent
                       
 st.header('**All Price**')
-#st.dataframe(df)
+st.dataframe(df)
 
 
 
