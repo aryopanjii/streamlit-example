@@ -18,7 +18,6 @@ from keras.layers import Dense, LSTM, Dropout
 
 # Graphics library
 import matplotlib.pyplot as plt
-#--------------------------------------------------
 
 st.title("Welcome to Streamlit!")
 
@@ -50,8 +49,6 @@ init_df = yf.get_data(
 
 
 
-
-#-----------------------------------------
 st.write("Line Chart in Streamlit")
 # 10 * 2 dimensional data
 
