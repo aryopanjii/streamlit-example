@@ -38,14 +38,14 @@ def round_value(input_value):
 
 crpytoList = {
     'Price 1': 'BTCBUSD',
-    'Price 2': 'ETHBUSD',
-    'Price 3': 'BNBBUSD',
-    'Price 4': 'XRPBUSD',
-    'Price 5': 'ADABUSD',
-    'Price 6': 'DOGEBUSD',
-    'Price 7': 'SHIBBUSD',
-    'Price 8': 'DOTBUSD',
-    'Price 9': 'MATICBUSD'
+    #'Price 2': 'ETHBUSD',
+    #'Price 3': 'BNBBUSD',
+    #'Price 4': 'XRPBUSD',
+    #'Price 5': 'ADABUSD',
+    #'Price 6': 'DOGEBUSD',
+    #'Price 7': 'SHIBBUSD',
+    #'Price 8': 'DOTBUSD',
+    #'Price 9': 'MATICBUSD'
 }
 
 col1, col2, col3 = st.columns(3)
