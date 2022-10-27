@@ -39,14 +39,20 @@ date_now = tm.strftime('%Y-%m-%d')
 date_5_years_back = (dt.date.today() - dt.timedelta(days=1840)).strftime('%Y-%m-%d')
 
 
+# LOAD DATA 
+# from yahoo_fin 
+# for 1104 bars with interval = 1d (one day)
+init_df = yf.get_data(
+    STOCK, 
+    start_date=date_5_years_back, 
+    end_date=date_now, 
+    interval='1d')
+
+
 
 
 #-----------------------------------------
 st.write("Line Chart in Streamlit")
 # 10 * 2 dimensional data
-chart_data = pd.DataFrame(
-    np.random.randn(10, 2),
-    columns=[f"Col{i+1}" for i in range(2)]
-)
 
 st.line_chart(chart_data)
